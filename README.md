@@ -25,9 +25,7 @@ $ omf install tweetjay
 
 ## Screenshot
 
-<p align="center">
-<img src="{{SCREENSHOT_URL}}">
-</p>
+![screenshot](https://cloud.githubusercontent.com/assets/234182/23456975/faefed52-fe75-11e6-8753-c4d262884a6f.png)"
 
 
 # License
