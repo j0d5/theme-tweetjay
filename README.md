@@ -19,8 +19,8 @@ $ omf install tweetjay
 
 ## Features
 
-* Lorem ipsum dolor sit amet.
-* Consectetur adipisicing elit.
+* It's my first theme for oh-my-fish and still in progress
+* It's a git oriented theme
 
 
 ## Screenshot
