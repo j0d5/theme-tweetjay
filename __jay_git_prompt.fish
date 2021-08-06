@@ -30,14 +30,14 @@ function __git_prompt_short_sha -d 'git commit short SHA'
 end
 
 function __jay_git_prompt -d 'Write out the git prompt'
-  set -l branch (git rev-parse --abbrev-ref HEAD ^/dev/null)
+  set -l branch (git rev-parse --abbrev-ref HEAD 2>/dev/null)
   if test -z $branch
     return
   end
 
   echo -n ' ['
 
-  set -l index (git status --porcelain ^/dev/null|cut -c 1-2|sort -u)
+  set -l index (git status --porcelain 2>/dev/null|cut -c 1-2|sort -u)
 
   if test -z "$index"
     set_color $fish_color_git_clean
